@@ -1,0 +1,29 @@
+.container-list{
+	max-width: 300px;
+	/*background: linear-gradient(to right, #C44EE6 , #A71BF0);*/
+	background: #FFFF;
+	box-shadow: 0 0 100px  rgba(0,0,0,0.4);
+    border-radius: 8px;
+    margin: 40px;
+
+}
+.container-list .preview{
+	position: relative;
+	width: 100%;
+}
+.container-list .preview a{
+	color: #7E7979;
+}
+.container-list .preview a:hover{
+	color: #333131;
+}
+.container-list .preview .content-list-limit{
+	max-height: 100px;
+	min-height: 80px;
+}
+
+.container-list .preview img{
+	min-width: 280px;
+	min-height: 280px;
+	max-height: 270px;
+}

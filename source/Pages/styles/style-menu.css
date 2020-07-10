@@ -1,0 +1,100 @@
+body, ul, li,p{
+	margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font: 400 18px Roboto, sans-serif;
+    
+}
+.content-container{
+	height: 80vh;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+img{
+	max-width: 80%;
+	width: 300px;
+	display: block;
+}
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 80%;
+	margin: 0 auto;
+}
+.flexbox div{
+	flex: 1 1 200px;
+	margin: 10px;
+}
+
+#logo{
+	color: white;
+}
+
+.header-category{
+	/*background: #CAA0A0;*/
+	min-height: 55vh;
+	display: block;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+
+}
+
+.navigator-category{
+	color: #333;
+}
+
+.header
+{
+	background: linear-gradient(to right, #DD35F1 , #A71BF0);
+	min-height: 25vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+}
+.menu{
+	display: flex;
+}
+.menu li{
+	margin-left: 10px;
+}
+.menu li a{
+	display: block;
+	padding: 10px;
+
+}
+/*Meu CSS */
+.links-category{
+	padding-top: 50px;
+}
+
+.links-category a{
+	margin-left: 20px;
+	border-radius: 8px;
+	color: white;
+	background: linear-gradient(to right, #DD35F1 , #A71BF0);
+	/*background: #A71BF0;*/
+	padding: 10px;
+}
+.links-category a:hover{
+	color: #A71BF0;
+	background:  white;
+	padding: 15px;
+}
+
+.texts p{
+	margin-left: 20px;
+	color: #999797;
+}
+.texts #title{
+	margin-top: 10px;
+}
+

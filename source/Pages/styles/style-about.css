@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+a{
+	font-size: 30px;
+	
+}
+.container-content-about{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100vh;
+	background: #0E0D0D;
+}
+.mycenter{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}

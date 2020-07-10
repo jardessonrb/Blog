@@ -1,0 +1,24 @@
+body{
+	background: linear-gradient(to right, #B62BC7 , #8F17CE);
+}
+.content-container{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+	align-content: center;
+}
+.content{
+	display: flex;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+a{
+	text-decoration: none;
+	color: #928F96;
+	font-size: 30px;
+}
+a i{
+
+	font-size: 15px;
+}
